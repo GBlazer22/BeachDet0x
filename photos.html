@@ -4,6 +4,7 @@
         <meta name="viewport"content="with=device-width, initial-scale=1.0">
         <title>BeachDetox</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="lightbox.css"
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
@@ -19,36 +20,46 @@
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="about.html">ABOUT</a></li>
                         <li><a href="">EVENTS</a></li>
-                        <li><a href="photos.html">PHOTOS</a></li>
+                        <li><a href="">PHOTOS</a></li>
                         <li><a href="contact.html">CONTACT US</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars"onclick="showMenu()"></i>
             </nav>
-          <h1>About us</h1>  
+          <h1>Photos</h1>  
         </section>
-    <!-----about us content----->
-    <section class="about-us">
-        <div class="row">
-          <div class="about-col">
-           <h1>We are a new team </h1>
-           <p>BeachDetox is a new team, created at 2022, that focuses on two sectors:<br>
-              We  <b>organise beach cleanups</b> and with the help of volunteers we achieve our targets<br>
-              We  <b>educate people</b> and communities about the plastic pollution problem and its influence on our lives
-            <br>
-            <br>
-            We are based at Salamis island, Greece.
-        </p>
-           <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
-          </div>
-    <div class="about-col">
-        <img src="28.jpg">
-    </div>      
-    <div class="about-col">
-        <img src="29.jpg">
-    </div> 
-
-    </section>
+    <!-----Photos content----->
+<div class="container">
+    <div class="gallery">
+        <a href="40.jpg" data-lightbox="beachpics" data-title="Katsouli,Salamis">
+            <img src="40.jpg">
+        </a>
+        <a href="41.jpg" data-lightbox="beachpics" data-title="Kamatero port,Salamis" >
+            <img src="41.jpg">
+        </a>
+        <a href="42.jpg" data-lightbox="beachpics" data-title="Kinosoura,Salamis" >
+            <img src="42.jpg">
+        </a>
+        <a href="43.jpg" data-lightbox="beachpics" data-title="Thinio,Salamis" >
+            <img src="43.jpg">
+        </a>
+        <a href="44.jpg" data-lightbox="beachpics" data-title="Kinosoura,Salamis Before" >
+            <img src="44.jpg">
+        </a>
+        <a href="45.jpg" data-lightbox="beachpics" data-title="Kinosoura,Salamis After" >
+            <img src="45.jpg">
+        </a>
+        <a href="46.jpg" data-lightbox="beachpics" data-title="Eantio,Salamis" >
+            <img src="46.jpg">
+        </a>
+        <a href="47.jpg" data-lightbox="beachpics" data-title="Kamatero,Salamis" >
+            <img src="47.jpg">
+        </a>
+        <a href="48.jpg" data-lightbox="beachpics" data-title="Kamatero port,Salamis" >
+            <img src="48.jpg">
+        </a>
+    </div>
+</div>
 <section class="footer">
     <div class="icons">
         <i class="fa fa-facebook"></i>
@@ -69,6 +80,7 @@
                 navLinks.style.right= "-200px";
             }
         </script>
+        <script src="lightbox-plus-jquery.js"></script>
     </body>
 </html>
 
