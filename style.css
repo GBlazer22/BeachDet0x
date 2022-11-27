@@ -5,7 +5,7 @@
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 100vh   ;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(background1.jpg);
     background-position:center;
@@ -20,7 +20,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 5,5em;
     border-radius: 400px;
     border-bottom: 5%;
 }
@@ -484,7 +484,7 @@ color:#fff;
 }
 
 
-.sub2-header{
+    .sub2-header{
     height:50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(55.jpg);
@@ -507,4 +507,4 @@ color:#fff;
         }
         .sub-header3 h1{
             margin-top: 20px;
-        }
+         }

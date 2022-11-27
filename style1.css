@@ -14,6 +14,7 @@
 .container3 video{
     width: 100%;
     height: 100%;
+    
 }
 .text-box3{
     position: absolute;
@@ -26,8 +27,16 @@
     display: flex;
     align-items: center;
     justify-content:center ;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 2.45ex;
+    font-weight: 300;
     mix-blend-mode: multiply;
 
 }
+@media (min-width: 768px) {
+
+    #wrapper {width:90%;  margin: 0 auto; }
+    
+    #content {width:70%; float:left; }
+    
+    #sidebar {width:30%; float:right; }
+ }
